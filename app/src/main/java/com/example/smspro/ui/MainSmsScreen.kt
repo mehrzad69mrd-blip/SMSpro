@@ -15,7 +15,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
--fun MainSmsScreen() {
+fun MainSmsScreen() {
     var selectedTab by remember { mutableStateOf(0) }
     val tabs = listOf("همه", "تراکنش‌ها", "بانکی", "سایر")
 
